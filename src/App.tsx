@@ -1,7 +1,7 @@
 import "./App.css";
 import { useMemo } from "react";
 
-import Home from "./Home";
+import Home from "../Home";
 import About from "../About";
 
 import * as anchor from "@project-serum/anchor";
