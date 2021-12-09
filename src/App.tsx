@@ -1,6 +1,8 @@
 import "./App.css";
 import { useMemo } from "react";
 
+import Home from "./Home";
+
 import * as anchor from "@project-serum/anchor";
 import { clusterApiUrl } from "@solana/web3.js";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
@@ -99,7 +101,5 @@ const App = () => {
       </ThemeProvider>
   );
 };
-
-import Home from "./Home";
 
 export default App;
